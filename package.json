@@ -1,0 +1,27 @@
+{
+  "name": "mithril-basic-poc",
+  "version": "1.0.0",
+  "description": "an editable box",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack src/index.js --output bin/app.js -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carnationcrab/mithril-basic-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carnationcrab/mithril-basic-poc/issues"
+  },
+  "homepage": "https://github.com/carnationcrab/mithril-basic-poc#readme",
+  "dependencies": {
+    "mithril": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
